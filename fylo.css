@@ -1,0 +1,7 @@
+.nav-list{
+    display: flex;
+}
+.navigation-main-div{
+    display: flex;
+    justify-content: space-between;
+}
