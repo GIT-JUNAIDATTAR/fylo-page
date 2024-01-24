@@ -23,3 +23,32 @@
 .fylo-logo{
     height: 2.8rem;
 }
+
+/* page one started */
+
+.page-one{
+    display:grid;
+    padding: 7rem;
+    grid-template-columns: 1fr,1fr;
+    grid-template-areas: 'a b';   
+}
+
+.page-one-heading-para-and-input{
+    grid-area: a;
+  
+}
+.page-one-img{
+    grid-area: b;
+    height: 50%;
+}
+
+.page-one-heading{
+    width: 30ch;
+    font-size: 3rem;
+    font-family: releway;
+    font-weight: 700;
+}
+
+.page-one-para{
+    width: 55ch;
+}
