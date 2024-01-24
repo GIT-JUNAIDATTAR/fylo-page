@@ -3,21 +3,23 @@
 .nav-list{
     display: flex;
     justify-content: center;
+    align-items: center;
+    color:gray;
     gap: 3rem;
     list-style: none;
+    font-family: releway;
     font-size: 1.2rem;
-}
-.navigation-main-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3.6rem;
-   padding-right: 4rem;
-   padding-left: 4rem;
-   font-family: releway;
-   font-weight: 400;
-}
+    font-weight: 400;
+    }
+    .navigation-main-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3.6rem;
+        padding-right: 4.5rem;
+        padding-left: 4.5rem;
+    }
 
 .fylo-logo{
-    height: 3rem;
+    height: 2.8rem;
 }
