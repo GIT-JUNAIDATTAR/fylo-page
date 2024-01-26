@@ -1,3 +1,7 @@
+
+body{
+    font-family: open sans;
+}
 /* navigation section */
 
 .nav-list{
@@ -28,13 +32,16 @@
 
 .page-one{
     display:grid;
-    padding: 7rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     grid-template-columns: 1fr,1fr;
     grid-template-areas: 'a b';   
 }
 
 .page-one-heading-para-and-input{
     grid-area: a;
+   
   
 }
 .page-one-img{
@@ -43,9 +50,8 @@
 }
 
 .page-one-heading{
-    width: 30ch;
-    font-size: 3rem;
-    font-family: releway;
+    font-size: 2.2rem;
+    font-family: open sans;
     font-weight: 700;
 }
 
